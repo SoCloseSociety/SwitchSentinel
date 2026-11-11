@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Local data, backups and downloads (never commit a real console's data)
+data/
+sauvegardes/
+*.releases.json
+
+# Third-party binaries (fetch them yourself — see README)
+vendor/payloads/
+vendor/fusee-launcher/
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.fseventsd

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SwitchSentinel</title>
+<link rel="stylesheet" href="/ui/charte.css">
+</head>
+<body>
+<div id="ciel"></div>
+
+<div class="appli">
+  <nav class="rail" id="rail">
+    <div class="marque"><span class="pastille pouls"></span><div><b>SwitchSentinel</b><br><span>l'atelier Switch</span></div></div>
+    <div class="onglet actif" data-page="accueil"><span class="ico">◉</span><span class="txt">Accueil</span><span class="pt" id="pt-usb"></span></div>
+    <div class="onglet" data-page="carte"><span class="ico">▤</span><span class="txt">Carte SD</span></div>
+    <div class="onglet" data-page="bouclier"><span class="ico">⛉</span><span class="txt">Bouclier</span></div>
+    <div class="onglet" data-page="sauvegardes"><span class="ico">⛒</span><span class="txt">Sauvegardes</span></div>
+    <div class="onglet" data-page="maj"><span class="ico">⟳</span><span class="txt">Mise à jour</span></div>
+    <div class="onglet" data-page="manettes"><span class="ico">⛛</span><span class="txt">Manettes</span></div>
+    <div class="onglet" data-page="wifi"><span class="ico">⇄</span><span class="txt">WiFi</span></div>
+    <div class="onglet" data-page="catalogue"><span class="ico">⊞</span><span class="txt">Catalogue</span></div>
+    <div class="pied">Switch V1 (Erista) · RCM · Hekate + Atmosphère<br>Tout reste sur ce Mac et le câble USB.</div>
+  </nav>
+
+  <main class="contenu" id="contenu">
+    <section id="accueil"></section>
+    <section id="carte" class="cache"></section>
+    <section id="bouclier" class="cache"></section>
+    <section id="sauvegardes" class="cache"></section>
+    <section id="maj" class="cache"></section>
+    <section id="manettes" class="cache"></section>
+    <section id="wifi" class="cache"></section>
+    <section id="catalogue" class="cache"></section>
+  </main>
+</div>
+
+<div id="toasts"></div>
+<div id="voile"><div class="modale" id="modale"></div></div>
+
+<script src="/ui/app.js"></script>
+</body>
+</html>

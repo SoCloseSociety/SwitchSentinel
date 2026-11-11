@@ -1,0 +1,20 @@
+[project]
+name = "switchsentinel"
+version = "1.0.0"
+description = "The gentle homebrew companion for a modded Nintendo Switch (Atmosphère + Hekate), from your Mac: reboot into Hekate over USB-C, audit the SD card, anti-ban shield, safe updates, PS5 controllers, WiFi installs and native theming."
+readme = "README.md"
+requires-python = ">=3.13"
+license = { text = "MIT" }
+authors = [{ name = "SoCloseSociety" }]
+keywords = ["nintendo-switch", "homebrew", "atmosphere", "hekate", "rcm", "payload", "cfw", "emummc", "nxtheme", "macos"]
+dependencies = ["pyusb>=1.3.1"]
+
+[project.urls]
+Homepage = "https://github.com/SoCloseSociety/SwitchSentinel"
+Issues = "https://github.com/SoCloseSociety/SwitchSentinel/issues"
+
+[project.scripts]
+switchsentinel = "switchsentinel.__main__:main"
+
+[tool.setuptools]
+packages = ["switchsentinel"]

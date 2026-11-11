@@ -1,0 +1,4 @@
+# SwitchSentinel -- dependances (installer dans .venv : .venv/bin/pip install -r requirements.txt)
+# Le moteur, l'app (serveur HTTP) et les tests n'utilisent QUE la bibliotheque standard.
+# Seule l'injection RCM a besoin de pyusb (+ libusb du systeme : `brew install libusb`).
+pyusb>=1.3.1
