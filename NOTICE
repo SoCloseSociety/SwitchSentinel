@@ -1,0 +1,6 @@
+SwitchSentinel is MIT-licensed (see LICENSE).
+
+It manages open-source Nintendo Switch homebrew which remains under its own
+respective licenses (Atmosphère, Hekate, MissionControl, sys-con, ftpd, etc.).
+Bundled test-fixture binaries under tests/fixtures/ belong to their respective
+authors and are included only to run the offline test suite.
